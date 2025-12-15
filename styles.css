@@ -213,3 +213,29 @@ ol {
     left: 2px;
 }
 
+@media (max-width: 600px) and (orientation: landscape) {
+    .display_section {
+        margin-bottom: 10px;
+    }
+
+    .display {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .btn_backspace:after {
+        width: 20px;
+        height: 15px;
+    }
+
+    .btn_roman:after {
+        width: 20px;
+        height: 20px;
+    }
+}
+
