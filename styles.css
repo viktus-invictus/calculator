@@ -213,7 +213,7 @@ ol {
     left: 2px;
 }
 
-@media (max-width: 600px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
     .display_section {
         margin-bottom: 10px;
     }
