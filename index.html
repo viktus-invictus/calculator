@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="calc pt-sans-regular">
+      <div class="display_section">
+        <div id = 'display' class="display"></div>
+      </div>
+      <div id='btn_section' class="btn_section">
+
+        <div data-clear='clear' class="btn">c</div>
+        <div data-delete='del' class="btn btn_backspace"></div>
+        <div id = 'roman_mode' data-roman='roman' class="btn btn_roman"></div>
+        <div data-operation ='/' class="btn btn-division">/</div>
+
+        <div data-digit ='7' class="btn btn_digit">7</div>
+        <div data-digit ='8' class="btn btn_digit">8</div>
+        <div data-digit ='9' class="btn btn_digit">9</div>
+
+        <div data-operation ='*' class="btn btn-multi">*</div>
+
+        <div data-digit ='4' class="btn btn_digit">4</div>
+        <div data-digit ='5' class="btn btn_digit">5</div>
+        <div data-digit ='6' class="btn btn_digit">6</div>
+
+        <div data-operation ='-' class="btn btn-sub">-</div>
+
+        <div data-digit ='1' class="btn btn_digit">1</div>
+        <div data-digit ='2' class="btn btn_digit">2</div>
+        <div data-digit ='3' class="btn btn_digit">3</div>
+
+        <div data-operation ='+' class="btn btn-addition">+</div>
+        
+        <div data-float =',' class="btn ">.</div>
+        <div data-digit ='0' class="btn btn_digit">0</div>
+        <div data-equals='=' class="btn btn_equals btn_wider">=</div>
+        
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
